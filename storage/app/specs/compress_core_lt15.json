@@ -1,0 +1,28 @@
+{
+  "page_size": { "w_mm": 420.0, "h_mm": 297.0, "orientation": "landscape" },
+
+  "mask_rect": { "x": 17.0, "y": 231.0, "w": 199.5, "h": 52.0 },
+  "mask_pad":  { "left": 4.0, "right": 0.4, "top": 0.4, "bottom": 1.5 },
+  "nudge":     { "dx": -2.0, "dy": 8.0 },
+
+  "safe_bottom_margin_mm": 11.0,
+
+  "table": {
+    "draw_header": true,
+    "columns": [
+      { "key": "no",   "label": "No",          "x": 17.0,  "w": 15.0, "align": "C" },
+      { "key": "desc", "label": "Cable Desc",  "x": 32.0,  "w": 120.0,"align": "L" },
+      { "key": "od",   "label": "ØD",          "x": 152.0, "w": 16.0, "align": "C" },
+      { "key": "od1",  "label": "ØD1",         "x": 168.0, "w": 16.0, "align": "C" },
+      { "key": "l",    "label": "L",           "x": 184.0, "w": 12.0, "align": "C" },
+      { "key": "alpha","label": "α",           "x": 196.0, "w": 10.0, "align": "C" },
+      { "key": "qty",  "label": "QTY",         "x": 206.0, "w": 10.5, "align": "C" }
+    ],
+    "rows": { "start_y": 237.0, "row_h": 8.0, "count": 6 },
+    "font": { "name": "Arial", "size_header": 8, "size_body": 8 }
+  },
+
+  "defaults": {
+    "drawn_by": "Ahmad Dzakwan"
+  }
+}

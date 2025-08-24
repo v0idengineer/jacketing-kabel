@@ -1,0 +1,24 @@
+{
+  "page_size": { "w_mm": 420.0, "h_mm": 297.0, "orientation": "landscape" },
+  "mask_rect": { "x": 17.0, "y": 231.0, "w": 199.5, "h": 52.0 },
+  "table": {
+    "columns": [
+      { "key": "no",   "label": "No",          "x": 0, "w": 0, "align": "C" },
+      { "key": "desc", "label": "Cable Desc",  "x": 0, "w": 0, "align": "L" },
+      { "key": "od",   "label": "ØD",          "x": 0, "w": 0, "align": "C" },
+      { "key": "alpha","label": "α",           "x": 0, "w": 0, "align": "C" },
+      { "key": "qty",  "label": "QTY",         "x": 0, "w": 0, "align": "C" }
+    ],
+    "rows": { "start_y": 0, "row_h": 0, "count": 6 },
+    "font": { "name": "Arial", "size_header": 8, "size_body": 8 }
+  },
+  "title_block": {
+    "title":    { "x": 0, "y": 0 },
+    "date":     { "x": 0, "y": 0 },
+    "drawn_by": { "x": 0, "y": 0 }
+  },
+  "defaults": {
+    "drawn_by": "Ahmad Dzakwan",
+    "leave_blank": ["checked_by", "approved_by", "qc", "quantity"]
+  }
+}
